@@ -1,0 +1,137 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html    {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+.main_container   {
+    background-color: #b91450;
+    padding-bottom: 55px;
+}
+
+.box_container  {
+    max-width: 836px;
+    margin: 0 auto;
+}
+
+input   {
+    border-color: #b91450;
+    border-radius: 5px;
+}
+
+select  {
+    border-color: #b91450;
+    border-radius: 5px;
+}
+
+h1  {
+    color: white;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.box_wrapper    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards_wrapper  {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.rectangular_card   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-left: 132px;
+    padding-right: 132px;
+    border-radius: 25px;
+    padding-bottom: 21px;
+}
+
+.rectangular_card_biglietto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-left: 132px;
+    padding-right: 132px;
+    padding-bottom: 21px;
+    padding-top: 23px;
+}
+
+.dettaglio_passeggeri   {
+    align-self: flex-start;
+}
+
+.user_credentials_title {
+    margin-top: 28px;
+    margin-bottom: 19px;
+}
+
+.user_km_title  {
+    margin-top: 28px;
+    margin-bottom: 19px;
+}
+
+.user_age_title {
+    margin-top: 28px;
+    margin-bottom: 19px;
+}
+
+.card   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.km_card    {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+button  {
+    width: 72px;
+    height: 29px;
+    color: #b91450;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+button:hover    {
+    border-color: gold;
+}
+
+.passenger_data_table   {
+    display: flex;
+
+}
+
+.nome_passeggero_block  {
+    background-color: #808080;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 25px;
+}
+
+.ticket_elements_wrapper    {
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 126px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.ticket_element:not(.last_ticket_element)   {
+    margin-right: 20px;
+}
+
