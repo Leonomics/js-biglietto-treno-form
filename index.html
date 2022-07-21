@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcola il prezzo del tuo biglietto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div>
+            <div>
+                <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            </div>
+        
+            <div>
+                <div class="credentials_card">
+                    <h3 class="user_credentials_title">Nome e Cognome</h3>
+                    <input type="text" id="user_name" value="Nome Cognome">
+                </div>
+                <div class="km_card">
+                    <h3 class="user_km_title">Km da percorrere</h3>
+                    <input type="text" id="user_km" value="">
+                </div>
+                <div class="age_card">
+                    <h3 class="user_age_title">Fascia d'età</h3>
+                    <select name="age_range" id="age_range">
+                        <option value="minorenne">Minorenne</option>
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="over65">Over 65</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <input type="button" onclick="saveUserData()" id="genera_button" value="Genera">
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+    </main>
+    <script type="text/javascript" src="myscript.js">
+
+    </script>
+</body>
+</html>
