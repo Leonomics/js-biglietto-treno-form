@@ -75,3 +75,7 @@ function saveUserData() {
      }
   }
 
+  function  cancel()    {
+    location.reload();
+  }
+
